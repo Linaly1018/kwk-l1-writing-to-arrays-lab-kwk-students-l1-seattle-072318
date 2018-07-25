@@ -13,10 +13,10 @@ def change_rainbow_colors(rainbow_colors)
   puts rainbow_colors[2]
 end
 
-def add_colors(change_rainbow_colors)
-  change_rainbow_colors.push ["green", "blue"]
-  puts change_rainbow_colors.push
+def add_colors(rainbow_colors)
+  rainbow_colors.push ["green", "blue"]
+  puts rainbow_colors.push
 end
 
 print change_rainbow_colors(rainbow_colors)
-print add_colors(change_rainbow_colors)
+print add_colors(rainbow_colors)
