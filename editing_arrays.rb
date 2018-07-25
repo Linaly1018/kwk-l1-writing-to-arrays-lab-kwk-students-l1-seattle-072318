@@ -21,4 +21,3 @@ def add_colors(change_rainbow_colors(rainbow_colors))
 end
 
 print change_rainbow_colors(rainbow_colors)
-print add_colors(change_rainbow_colors(rainbow_colors))
