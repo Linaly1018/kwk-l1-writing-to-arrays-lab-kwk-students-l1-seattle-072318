@@ -13,7 +13,7 @@ def change_rainbow_colors(rainbow_colors)
   puts rainbow_colors[2]
 end
 
-def add_colors(change_rainbow_colorsrainbow_colors)
+def add_colors(change_rainbow_colors)
   change_rainbow_colors[3]="green"
   puts change_rainbow_colors[3]
   change_rainbow_colors[4]="blue"
